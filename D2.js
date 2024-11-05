@@ -184,7 +184,7 @@ verificaE8(12,4);
 function calcolaTotaleCarrello(totalShoppingCart) {
   console.log("Esercizio N 5");
   let costoSpedizione = 0;
-  if(totalShoppingCart > 50) {
+  if(totalShoppingCart >= 50) {
     costoSpedizione = 0;
   }
   else {
@@ -210,7 +210,7 @@ function calcolaTotaleCarrelloBlackFriday(totalShoppingCart) {
     console.log("Esercizio Numero 6");
     let costoSpedizione = 0;
     let totale = parseInt(totalShoppingCart * 20 / 100); // 20% di sconto
-    if(totale > 50) {
+    if(totale >= 50) {
       costoSpedizione = 0;
     }
     else {
@@ -340,9 +340,8 @@ Modifica la logica del seguente algoritmo in modo che mostri in console il messa
   /*Esercizio 15
    Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
    */
-   console.log("Esercizio N 15");
+  console.log("Esercizio N 15");
   array[9] =  100;
   console.log(array);
 
 
- 
